@@ -97,6 +97,7 @@ function tapLove(id) {
         'loveMsg',
         () => {
           const fromTag = document.createElement("div");
+          const yeu = document.createElement("div");
           fromTag.id = 'fromTag';
           fromTag.id = 'yeu';
           yeu.textContent = "YÊU CÔ CÔNG CHÚA NHỎ CỦA ANH 😘";
