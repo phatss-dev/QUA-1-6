@@ -98,7 +98,12 @@ function tapLove(id) {
         () => {
           const fromTag = document.createElement("div");
           fromTag.id = 'fromTag';
-          fromTag.textContent = "YÊU CÔ CÔNG CHÚA NHỎ CỦA ANH 😘";
+          fromTag.id = 'yeu';
+          yeu.textContent = "YÊU CÔ CÔNG CHÚA NHỎ CỦA ANH 😘";
+          yeu.style.marginTop = "20px";
+          yeu.style.opacity = "0";
+          yeu.style.transition = "opacity 1s ease";
+          yeu.appendChild(yeu);
           fromTag.textContent = "From: PHATSS PHÙNG";
           fromTag.style.marginTop = "20px";
           fromTag.style.opacity = "0";
@@ -106,7 +111,8 @@ function tapLove(id) {
           loveMsg.appendChild(fromTag);
 
           setTimeout(() => {
-            fromTag.style.opacity = "1";
+            yeu.style.opacity = "1";
+            fromTag.style.opacity = "1"
           }, 500);
         }
       );
