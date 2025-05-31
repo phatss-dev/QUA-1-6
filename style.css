@@ -39,7 +39,7 @@ body {
 
 #loveMsg {
   font-size: 18px;
-  color: #F8DAE9;
+  color: #EFB0C9;
   line-height: 1.5;
   white-space: pre-line;
 }
@@ -47,7 +47,7 @@ body {
 fromTag {
   display: block !important;
   opacity: 1 !important;
-  color: #C71585 !important;  /* Đã đổi từ đen sang hồng đậm */
+  color: #6C7EE1 !important;  /* Đã đổi từ đen sang hồng đậm */
   font-size: 1.2em;
   margin-top: 20px;
   text-align: center;
