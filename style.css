@@ -44,10 +44,10 @@ body {
   white-space: pre-line;
 }
 
-#fromTag {
+fromTag {
   display: block !important;
   opacity: 1 !important;
-  color: #000000 !important;
+  color: #D81B60 !important;  /* Đã đổi từ đen sang hồng đậm */
   font-size: 1.2em;
   margin-top: 20px;
   text-align: center;
